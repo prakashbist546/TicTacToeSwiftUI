@@ -15,8 +15,6 @@ struct GameView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-
-                Spacer()
                 HStack{
                     Image(systemName: "person.crop.circle")
                         .foregroundColor(.red)
@@ -38,9 +36,9 @@ struct GameView: View {
                         }
                     }
                 }
-                Spacer()
+
                 Circle()
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: geometry.size.width/3 - 25, height: geometry.size.width/3 - 25, alignment: .center)
                     .foregroundColor(.red)
                     .overlay(
                     Image(systemName: "house.circle")
