@@ -4,8 +4,10 @@ Interactive Swift UI project
 Hey check out this cool project in SwiftUI.
 Added new game levels: Normal + Difficult.
 Added new game modes: Single + Two Players.
-optimized with dark mode.
+Optimized with dark mode.
 Created new icons for the app.
+Optimized views.
+Haptic feedback enabled while playing.
 
 
 
